@@ -18,7 +18,7 @@ As you can see, there is no linear relationship between the two variables. It me
 The correlation coefficient here is 0.
 
 """
-full_health_data = pd.read_csv("no_linear_relationship_data.csv", header=0, sep=",")
+full_health_data = pd.read_csv("data/no_linear_relationship_data.csv", header=0, sep=",")
 
 full_health_data.plot(x ='Duration', y='Max_Pulse', kind='scatter')
 

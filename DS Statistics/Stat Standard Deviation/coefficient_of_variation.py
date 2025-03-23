@@ -8,7 +8,7 @@ Coefficient of Variation = Standard Deviation / Mean
 import pandas as pd
 import numpy as np
 
-full_health_data = pd.read_csv("coefficient_of_variation_data.csv", header=0, sep=",")
+full_health_data = pd.read_csv("data/coefficient_of_variation_data.csv", header=0, sep=",")
 
 cv = np.std(full_health_data) / np.mean(full_health_data)
 

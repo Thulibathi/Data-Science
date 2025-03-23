@@ -1,6 +1,6 @@
 import pandas as pd
 
-full_health_data = pd.read_csv("full_health_data.csv", header=0, sep=",")
+full_health_data = pd.read_csv("data/full_health_data.csv", header=0, sep=",")
 
 pd.set_option('display.max_columns',None)
 pd.set_option('display.max_rows',None)

@@ -16,7 +16,7 @@ small data set of the sports watch with 10 observations).
 This time we want scatter plots, so we change kind to "scatter":
 
 """
-health_data = pd.read_csv("perfect_linear_relationship_data.csv", header=0, sep=",")
+health_data = pd.read_csv("data/perfect_linear_relationship_data.csv", header=0, sep=",")
 
 health_data.plot(x ='Average_Pulse', y='Calorie_Burnage', kind='scatter'),
 
